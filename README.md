@@ -1,5 +1,19 @@
 --- Project Doc ---
 
+Créer une mini app “Rick & Morty” en respectant le cahier des charges suivant :
+● Une page principale permet de lister tous les épisodes de la série
+● Une barre de recherche permet de filtrer les épisodes par nom
+● Quand on clique sur un épisode : afficher le détail de l’épisode, et lister les personnages de
+l’épisode
+● L’utilisateur doit également pouvoir sélectionner un ou plusieurs épisodes “favoris”. Cette
+information doit être persistée dans le navigateur quand l’utilisateur rafraîchit la page
+
+
+L’objectif principal est de faire une app React fonctionnelle. Le style est secondaire, mais la mise en
+place d’un front responsive est un bonus.
+
+[Documentation de l’api Rick & Morty](https://rickandmortyapi.com/documentation/)
+
 
 --- Official Doc ---
 
