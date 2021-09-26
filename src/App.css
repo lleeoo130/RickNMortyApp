@@ -9,19 +9,36 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
+    max-height: 100px;
+    color: #61dafb !important;
+    margin-top: 45px;
+  }
+  .rick {
     animation: App-logo-spin infinite 20s linear;
+    margin-right: 15px;
+  }
+  .morty {
+    animation: App-logo-spin-reverse infinite 20s linear;
+    margin-left: 15px;
   }
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: snow;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #a6eee6;
+}
+
+.App-header > div {
+  background-color: snow;
+  border: solid 5px #ffcc99;
+  border-radius: 60px;
+  margin: 15px;
 }
 
 .App-link {
@@ -34,5 +51,14 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes App-logo-spin-reverse {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
   }
 }

@@ -1,0 +1,8 @@
+.EpisodeList {
+    max-width: 90%;
+    margin: auto;
+}
+
+.EpisodeList * {
+    border-color: #a6eee6 !important;
+}

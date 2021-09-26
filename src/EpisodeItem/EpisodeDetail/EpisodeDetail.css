@@ -1,0 +1,14 @@
+.EpisodeDetail {
+    display: none;
+}
+
+.EpisodeDetail div {
+    max-width: 100%;
+}
+
+.characterThumbnail {
+    border-radius: 90%;
+    border: solid silver 2px;
+    max-height: 60px;
+    margin: 15px
+}
